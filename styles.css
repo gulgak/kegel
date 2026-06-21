@@ -156,6 +156,7 @@ button { font-family: inherit; color: inherit; cursor: pointer; }
   aspect-ratio: 1;
   display: grid;
   place-items: center;
+  pointer-events: none; /* purely decorative: never swallow taps meant for the button below */
 }
 .ring__halo {
   position: absolute; inset: 0; border-radius: 50%;

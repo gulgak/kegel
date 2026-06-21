@@ -1,5 +1,5 @@
 /* sw.js — offline cache for the Kegel PWA */
-const CACHE = 'kegel-v2';
+const CACHE = 'kegel-v3';
 const ASSETS = [
   "./",
   "./index.html",
